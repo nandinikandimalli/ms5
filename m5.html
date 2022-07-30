@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.static {
+  position: static;
+  border: 3px solid #73AD21;
+}
+.relative {
+  position: relative;
+  left: 30px;
+  border: 3px solid #73AD21;
+}
+.absolute {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border: 3px solid #73AD21;
+}
+div.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  border: 3px solid #73AD21;
+  color:red;
+}
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  background-color: #cae8ca;
+}
+p {
+  background-color: lightgrey;
+  width: 300px;
+  border: 5px solid green;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 30px;
+  overflow: hidden;
+}
+img {
+  float: left;
+  width: 100%;
+  height: auto;
+}
+span
+{
+  display: block;
+}
+h4.center {
+  display: flex;
+  justify-content: center;
+}
+
+</style>
+</head>
+<body>
+<h4 class="center"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHcAAAB3CAMAAAAO5y+4AAAAb1BMVEXiN0T////iOUbiNULhMD7hKzrhLjzukZfjPkrhKDjpa3ThJTX75ef+9/j2xsn40dTth4786+z98vP63+H52dvkRFDreIDwnKLyq7DoY23lUFvmWGLxoqftjJLqc3vsf4b0vMD0tbngGy7gESjfBiEKpczmAAAEjklEQVRoge2bWY/jKBCAcQow+LZjfGAnTtLz/3/jlCkcu9Pbo92H6UgreAn3V9QFiRQWxYqdfrYwFUcs1sB+uoCOmfp5LILVG6BUTm+iBm7gBm7gBm7gBm7gBm7gBm7gBm7gBm7gBm7gvpkL3/8U+Be5oIX5FvzXuDK1czaIn+byqoyiqJI/wQV4GhRMjtho5P+GC58KdXEhJId93NVBCgnbMH9O5CfFpHATxHXFRob7tbhCaMHhn7gnY4xyv4crhTVYZ5trFS8T54RlxiYnAGmXvlvHObvGl0muE/l0ubVZdi4qxfG0ZlixuZ0m6/ax1XC7x9MO3rl8rGtcuJYsq+uEM2mG2i0vR9xb9Odzna9H6BvsLE4gxnYdTXC3rnR6XUtruRx8K88jdC2u7r59M/wLVy7RsSRcjM3WyDvB0rurWnGjvuXRUaVM+XRc2TJR7K2LkLbex7Zf93eu6D9xR50cWrkFz2UeG/Wjr9Qp8NafzpWrPB/k17bZW9EtfeXqW3QcB0PT/aJ7mrpDNPE2Y9g2r9NV5jIejencyeLTfsB8gjI6CjXxV/veVuO2NFwqQcebTUWbi9SdqWnyIqOeqCV1nlMGNuFacv6Y3Ro5ku7iJEn4xVUL660Wiy/+fGKQ0qzWSNJOIfiDMEbQZ959DCR5wQ19oup4KpS1ljlt9DqN6ayCS+bEra30drqnr1yMTk2ukikuSJ+dZKTfaFKkiV57g5yVJHeaNXr+pczqpsmcgitJysrRifjolg045/KU8iVvMEmu0ljJyGsbjD7PtQSpuXeiqBI+Ahapl92gkQsFZ9MMk8suv6y+48rJydZMgvnNsxOwB/kFI8gsQGWkExAzaYKMk5e3m4vixnLufK5EhCajoDf5eBm+cOXkTJonaHlgbuUZla9db/ZBkJHD5C3vIyBnzgKFSnXKMrKSajZTatI4cnXhtfOaN6w7R3N9aI2p9OwPJSmM77/Iqgb4dbOqdpo4P1ZV1pgeGc1tgVvvCsDTYROXZMn9lfzkckNmK+O+7+fYS3d9kD/m44PCSIC4ePOCdFYtfq1HalP0IQpVjAGSNX7wkdHs+eEV/po3QJVH1ygoEqJ6oO6b1g6Cseo3wKysaMuPVRPNmGp1J9VsDlff29qQz+R3Okfj08aT63fbSqzt0UUzw5WXx9sJ85DPytXDOUxzv1OAR72Q3bbwDPKQqzFb65d7If2UJddQqPZWPUkPGTAXO8vXBmj3fJRmu4sKx6jkfk+gzo/ped6wO/eTWBHGrV627W4Koy/2ZwHrujO8VJ2HY3IQHely5hlxn4fMK7xN7ZbIs2v65f7lyXJNkhEL5tRuwUBiwszlOWuHaX1CYAZeiwFQrjICg8lV1lAwl2FelFDd0nULygzQl215X9QaNByq4ry+CODw2tr9WWJe90X6Vwy+XE7cv07AjcBW4c8uN4jPGFwDuJLWAja5fwzhqGT4ApLHR+2f33WHl9p/LZ9Xftnnf/k9JXADN3ADN3ADN3ADN3ADN3ADN3ADN3ADN3ADN3AD94/cd5V3/d/qXf8ve9P/6X4Doz1AlCBs0GIAAAAASUVORK5CYII="alt="offers"style="width:50px;height:50px;"></h4>
+<h1 style="color:red;text-align:center;">zomato</h1>
+<div class="sticky">Eat What makes You Happy</div>
+<div class="fixed">75%off on your firstorder</div><br>
+<img src="https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png"alt="offers"style="width:200px;height:200px;margin-right:15px;">
+<img src="https://b.zmtcdn.com/data/pictures/chains/8/19344888/32df6bc2da4756901e8131457a0703be.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*;"alt="offers"style="width:200px;height:200px;margin-right:15px;">
+<img src="https://b.zmtcdn.com/data/pictures/1/16503221/0f05a9cf3349623aca55c35cb0fd1b18.png?fit=around|771.75:416.25&crop=771.75:416.25;*,*"alt="offers"style="width:200px;height:200px;margin-right:15px;">
+<p class="static"><img src="https://res.cloudinary.com/swiggy/image/upload/f_auto,q_auto,fl_lossy/lkn0extnvjywfts4q7gw" alt="biriyani" style="width:100px;height:100px;margin-right:15px;">
+<span>Item Name:biriyani</span><span>Cost:350(for one)</span><span> Quantity:1</span><span style="color:red">50%off on your first order</span></p>
+<p class="relative"><img src="https://th.bing.com/th/id/OIP.-eLg_dBaDIjDtujLiOS8pQHaGm?w=196&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7" alt="moncuriya" style="width:100px;height:100px;margin-right:15px;">
+<span>Item Name:Moncurian</span><span>Cost:100(for one)</span><span> Quantity:1</span><span style="color:red">20%off on your first order</span></p>
+<p><img src="https://th.bing.com/th/id/OIP.yjNIMJsD2nZ3KuClxJzMWwHaFj?w=242&h=181&c=7&r=0&o=5&dpr=1.25&pid=1.7" alt="chicken65" style="width:100px;height:100px;margin-right:15px;">
+<span>Item Name:Moncurian</span><span>Cost:100(for one)</span><span> Quantity:1</span><span style="color:red">20%off on your first order</span></p>
+</body>
+</html>
